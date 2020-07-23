@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="rest-service.js"></script>
+</head>
+
+<body style="background-image: url('https://64.media.tumblr.com/1ed1f1157462d17a03bd5ef732cac9c5/tumblr_p2wv7cef4v1w4o2q9o1_540.gifv'); background-size:cover; ">
+    <form action="" method="post">
+        <div class="imgcontainer">
+            <img src="../../../../Downloads/13229356.jpg" class="avatar">
+        </div>
+
+        <div class="container">
+            <label style="color:white" for="uname"><b>Username</b></label>
+            <input id="uname" type="text" placeholder="Enter Username" name="uname" pattern="[A-Za-z]{3,}" required >
+
+            <label style="color:white" for="email"><b>Email</b></label>
+            <input id="email" type="text" placeholder="Enter email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required >
+
+            <label style="color:white" for="psw"><b>Password</b></label>
+            <input id="pass" type="password" placeholder="Enter Password" name="psw" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
+            
+            <button id="sign-up" onclick="signUpData()" type="submit" style="font-size: 17px;">register</button>
+        </div>
+
+        <div class="container" style="background-color:white;">
+            <div style="padding-bottom: 10px;">
+                <span class="signin-link"> <a href="file:///Users/sujit/Desktop/work/JS/signin/login.html#"> Have an account? sign-in! </a></span>
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+
+</html>

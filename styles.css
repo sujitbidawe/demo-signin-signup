@@ -1,0 +1,67 @@
+/* form */
+form {
+    border: 2px solid white;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+/* inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+  
+/* style for buttons */
+button {
+    background-color: rgb(113, 184, 8);
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+/* hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+ 
+.imgcontainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+/* Avatar image */
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+  
+.container {
+    padding: 16px;
+}
+  
+/* Forgot password */
+span.forgot-link {
+    float: right;
+    padding-bottom: 16px;
+}
+
+span.register-link {
+    float: left;
+    padding-bottom: 16px;
+    margin: auto;
+}
+
+span.signin-link {
+      float: left;
+}
+
+
+  
